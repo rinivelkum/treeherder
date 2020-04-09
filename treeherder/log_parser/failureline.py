@@ -178,7 +178,7 @@ def replace_astral(log_list):
 def get_group_results(push):
     groups = Group.objects.filter(
         job_logs__job__push=push, group_result__status__in=[GroupStatus.OK, GroupStatus.ERROR]
-    ).values(
+    ).exclude(name='default').values(
         'group_result__status',
         'name',
         'job_logs__job__taskcluster_metadata__task_id',
