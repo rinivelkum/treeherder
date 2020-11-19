@@ -337,13 +337,13 @@ mohawk==1.1.0 \
     --hash=sha256:3ed296a30453d0b724679e0fd41e4e940497f8e461a9a9c3b7f36e43bab0fa09 \
     --hash=sha256:d2a0e3ab10a209cc79e95e28f2dd54bd4a73fd1998ffe27b7ba0f962b6be9723 \
     # via taskcluster
-mozci==1.10.0 \
+mozci==1.11.0 \
     --hash=sha256:c4026a12f04387b4d1c5a455d1e81eadfc6bdba483f0d3a814b5409415876dce \
     --hash=sha256:e176f500118ebe364719dcdfba25d117892cc1bdf83b645825305927d02225cd \
     --hash=sha256:5081cd9ff64c5324f8b2dbdd1c4bb7fefb0779c955f4e346abc3a050e0050efc \
     --hash=sha256:879cdb9fe9125906bffcc8aded0e902a64c8c48f56258bc5c6747e12264c2d41 \
     --hash=sha256:5ac8b5c957d78be883bcd5881518702b16367aa6527ec687a250ff0ad1696be6 \
-    --hash=sha256:6cedb2574701ef3fe01504a348c18ecfeb42787ccb473746a230c4ee2457d817 \
+    --hash=sha256:b8fb7dc1597cfc5393a3afe8c812c7cd249dbf4baf6ed3b5d0b677e130ed31bf \
     # via -r requirements/common.in
 mozlog==6.1 \
     --hash=sha256:0d45abc8b9aec5e812ade6665128e50f9041f98397d11f9c753aa93a3f10e978 \
